@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Information</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="personal.css">
 </head>
 <body>
-    <pre> Please provide the following information so that we can ensure a smooth and effortless financing experience.
-        </pre>
-    
-        <form action="">
-         <h4>Please provide your source of incomes</h4>
-            <div class="inc">
-                Salary : <input type="checkbox" name="income">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="mySalary">
-                <br>
-                Rent &nbsp;&nbsp;&nbsp;: <input type="checkbox" name="income">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="myRent">
-                <br>
-                Stocks : <input type="checkbox" name="income">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="myStocks">
-                <br>
-                Others : <input type="checkbox" name="income">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="myOthers">
-            </div>
-        </form>
-        <br>
-        <button>SUBMIT</button>
-    
+    <div class="container">
+        <h1>VETTA</h1>
+       <h3>Please provide your source of income</h3>
+        <div class="text-area">
+            <input type="number" required/>
+            <label>Salary</label>
+        </div>
+        <div class="text-area">
+            <input type="number" required/>
+            <label>Rent</label>
+        </div>
+        <div class="text-area">
+            <input type="number" required/>
+            <label>Stocks</label>
+        </div>
+        <div class="text-area">
+            <input type="number" required/>
+            <label>Others</label>
+        </div>
+        
+    </div>
+    <button class="floating-btn">
+        Submit
+    </button>
+    <script src="incomes.js">
+
+    </script>
 </body>
-</html>
