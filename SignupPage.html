@@ -3,58 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignupPage</title>
     <link rel="stylesheet" href="Signup.css">
 </head>
 <body>
-    <header>
-        <p>Hi! Welcome to Vitta! Hope you are having a great day. 
-    I can make it even better by simplyfing your personal financing journey.</p>
-                        <p>SIGN UP NOW!</p> 
-        </p>
-    </header>
-        <div class="grid.container">
-            <form action="">
-                <h4>Enter your First Name:</h4>
-                <div class="grid.item">   
-                    <label for="id1">
-                        <input type = "text" name="First Name" placeholder="First Name" id="id1" required>
-                    </label>
-                </div>    
-                <div class="grid.item">            
-                    <h4>Enter your Last Name:</h4>
-                        <label for="id2">
-                            <input type = "text" name="Last Name" placeholder="Last Name" id="id2" required>
-                        </label>
-                </div>
-                <div class="grid.item">    
-                    <h4>Enter your Date of Birth:</h4>
-                        <label for="id3">
-                            <input type="date" name="Date of Birth" placeholder="D.O.B" id="id3" required>
-                        </label>
-                </div>    
-                <div class="grid.item">       
-                    <h4>Enter your Phone Number:</h4>
-                        <label for="id4">
-                            <input type="tel" name="Phone No." placeholder="Mobile No." id="id4" required>
-                        </label>
-                </div>             
-                <div class="grid.item">
-                    <h4>Enter your Email Id:</h4>
-                        <label for="id5">
-                            <input type="email" name="Email Id." placeholder="Email" id="id5" required>
-                        </label>
-                </div>        
-                <div class="grid.item">
-                    <h4>Enter your Password:</h4>
-                        <label for="id6">
-                            <input type="password" name="password" placeholder="New Password" id="id6" required>
-                        </label>
-                </div>                       
-            </form>
+    <div class="h1">V&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;</div>
+    <div class="container">
+        <div class="h2"><p><B>Welcome! Please sign up to be able to access the best Personal Finance Dashboard 'VITTA'</B></p></div>
+        <div class="text-area">
+            <input type="text" required/>
+            <label>FIRST NAME</label>
         </div>
-                            <br>
-    <button onclick="document.location= 'Expense.html'">SUBMIT</button>
+        <div class="text-area">
+            <input type="text" required/>
+            <label>LAST NAME</label>
+        </div>
+        <div class="text-area">
+            <input type="tel" required/>
+            <label>PHONE NUMBER</label>
+        </div>
+        <div class="text-area">
+            <input type="email" required/>
+            <label>EMAIL ID</label>
+        </div>
+        <div class="text-area">
+            <input type="password" required/>
+            <label>NEW PASSWORD</label>
+        </div>
+    </div>
+    <button class="floating-btn" onclick="document.location= 'Personal_info.html'">SUBMIT</button>
 
+    <script src="incomes.js">
+    </script>
 </body>
 </html>
